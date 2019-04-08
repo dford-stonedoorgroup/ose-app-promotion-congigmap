@@ -14,8 +14,8 @@ var server = http.createServer(function (req, res) {
       res.writeHead(200, {'Content-Type': 'text/html'});
       res.write('<html><head><title> Test</title></head>');
       res.write('<body bgcolor="' + properties.get('color') + '">');
-      res.write('<h1>' + properties.get('title') + '</h1>');
-      res.write('<p>' + properties.get('message') + '</p>');
+      res.write('<h1>' + properties.get('message') + '</h1>');
+      res.write('<p>' + process.env.BACKGROUND_MSG + '</p>');
       res.write('</body>');
       res.end('\n');
    });
