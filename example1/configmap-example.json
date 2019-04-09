@@ -5,7 +5,7 @@
         "name": "config"
     },
     "data": {
-        "message": "Hello world!",
-        "ui.properties": "color=blue\n"
+        "message": "This is a greeting that is NOT changed",
+        "ui.properties": "color=blue \nmessage='Hello World ' \nEnv='DEV'"
     }
 }
