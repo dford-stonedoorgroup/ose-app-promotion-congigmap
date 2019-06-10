@@ -6,6 +6,6 @@
     },
     "data": {
         "message": "This is a greeting that is NOT changed",
-        "ui.properties": "color=salmon \nmessage=Hello World  \nEnv=ZU2 Prod"
+        "ui.properties": "color=lightcyan \nmessage=Hello World  \nEnv=DAT Dev"
     }
 }
